@@ -5,7 +5,7 @@
     - Use the 'Lato' font family at 18px throughout the body of the document
     - cover the of the document background with the "map-bg.jpg" image in the images directory. 
 */
- body {background-image: url(map-bg.jpg); }
+ body {background-image: url("../images/map-bg.jpg"); }
 div {
      font-family: Lato;
      font-size: 18px;
@@ -22,7 +22,7 @@ nav {font-family: sans-serif;font-size: 10px;}
         - set the font color to #5d4037
 */
 h1 {
-    font-family: supermercado one;
+    font-family: "supermercado one";
     font-size: 45px;
     color: #5d4037;
 }
